@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/about.css">
+    <!-- BOOTSTRAP FOR ICONS ONLY -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> 
+
+    <title>ARTillería</title>
+</head>
+<body>
+    <header>
+        <section class="brand-container">
+            <a href="../Index.html"><img id="logo" src="../IMG/logo-mannequin.png" alt="logo de la marca"/></a>
+            <h1>ARTillería</h1>
+        </section>
+        <section id="menu-bar">
+          <button id="abrir" class="abrir-ham"><i class="bi bi-list"></i>
+          </button>
+            <nav class="nav" id="nav">
+              <button id="cerrar" class="cerrar-ham"><i class="bi bi-x-circle-fill"></i>
+              </button>
+              <ul class="nav-links">
+                <li><a href="../Index.html">HOME</a></li>
+                <li><a href="../templates/galeria.html">GALERÍA</a></li>
+                <li><a href="../templates/about.html">ABOUT</a></li>
+              </ul>
+            </nav>
+            <div class="button-container">
+                <a href="../templates/login.html"><button id="login-button"><i class="bi bi-person-circle"></i></button></a>
+                <button id="cart-button"><i class="bi bi-bag-fill"></i></button>
+            </div>
+          </section>
+    </header>
+
+    <section class="about">
+        <div id="text-about-1">
+            <h2>Recuperando la conexión</h2>
+            <p id="text-info">La idea de una galería centrada en la comunidad surgió como un faro de conexión entre artistas y espectadores, donde cada obra es más que un objeto estético; es un vínculo que une a individuos diversos a través de la apreciación compartida por la creatividad.</p>
+        </div>
+        <div id="text-about-2">
+            <h2>Armados con visión artística</h2>
+            <p id="text-info">La creación de ARTillería fue impulsada por una profunda pasión por el arte y el deseo ardiente de construir un espacio que trascienda las fronteras convencionales. Nos motivó la convicción de que el arte tiene el poder de unir a las personas, inspirar conversaciones significativas y transformar comunidades.</p>
+        </div>
+        <div id="text-about-3">
+            <h2>Nexo de ideas </h2>
+            <p id="text-info"> En ARTillería, nos enorgullece ser más que un simple espacio para exhibir obras maestras; somos un tejido de artistas, amantes del arte y entusiastas culturales que se unen para compartir, aprender y crecer juntos. Nuestra galería es un reflejo de la riqueza de talento en nuestra comunidad, y nos esforzamos por ser un espacio inclusivo que celebra la belleza en todas sus formas.</p>
+        </div>
+    </section>
+    
+    <section class="newsletter">
+        <div id="call">
+            <h2>Déjate llevar</h2>
+            <p class="text-info">¿Quieres saber que es lo último en nuestra comunidad?<br>¡No podemos esperar a contartelo!</p>
+        </div>
+        <div id="form">
+            <input id="email" type="email" placeholder="Tu email aquí">
+            <button id="ok-form">¡OK!</button>
+        </div>
+        <div id="back">
+            <img id="backimg" src="../IMG/canvas-header.jpg" alt="fondo newsletter">
+        </div>
+    </section>
+
+    <button id="goTopBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>
+
+    <footer class="footer">
+          <h3>Conecta con ARTillería</h3>
+          <hr class="divider">
+          <div class="footer-content">
+            <p id="copy">&copy; 2023 ARTílleria Gallery<br>Términos y condiciones aplicables<br>Para más información sobre pagos click aqui</p>
+            <div class="social-media">
+                <ul id="social-links">
+                  <li><i class="bi bi-twitter"></i></li>
+                  <li><i class="bi bi-instagram"></i></li>
+                  <li><i class="bi bi-linkedin"></i></li>
+                  <li><i class="bi bi-share-fill"></i></li>
+              </ul>
+            </div>
+            <p id="address">Avenida de Factoría 5<br> Monte de Tomillo<br> 25002</p>
+          </div>
+    </footer>
+
+    <script src="../JS/hamburguesa.js"></script>
+    <script src="../JS/botonscroll.js"></script>
+</body>
+</html>
