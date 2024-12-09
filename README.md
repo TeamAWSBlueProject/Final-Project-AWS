@@ -1,5 +1,11 @@
 ![Blue Group](https://github.com/user-attachments/assets/279a2e84-81fc-4fac-8901-a299be359f7a)
 
+## Sobre nosotros
+
+En Blue Group, nuestra pasión es simplificar la tecnología para que nuestros clientes puedan concentrarse en lo que realmente importa: hacer crecer sus negocios. Somos una empresa especializada en soluciones basadas en Amazon Web Services (AWS), ofreciendo servicios personalizados que se adaptan a las necesidades únicas de cada cliente.
+
+Con un equipo de expertos certificados y años de experiencia en la nube, ayudamos a empresas de todos los tamaños a modernizar su infraestructura, optimizar recursos y acelerar su transformación digital. Desde la migración a la nube hasta la implementación de arquitecturas avanzadas, nuestro enfoque se basa en la innovación, la eficiencia y la seguridad.
+
 ## Descripción del proyecto 
 
 ### El cliente quiere desplegar su web en AWS y que esta tenga alta disponibilidad, de manera que la caída de una zona de disponibilidad en AWS no haga su web inaccesible.
