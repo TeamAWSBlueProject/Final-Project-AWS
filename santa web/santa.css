@@ -121,3 +121,26 @@ button:hover {
     background-color: var(--color-gold);
     color: var(--color-pine-green);
 }
+
+.site-footer {
+    max-width: 1100px;
+    margin: 20px auto 0;
+    background-color: var(--color-soft-white);
+    color: var(--color-pine-green);
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+}
+
+.ec2-info {
+    opacity: 0.9;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.site-footer:hover {
+    background-color: rgba(244, 244, 244, 0.8);
+}

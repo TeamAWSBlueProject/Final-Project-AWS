@@ -107,3 +107,14 @@ document.addEventListener('DOMContentLoaded', () => {
     renderGreetingsGallery();
     renderInvitationSection();
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('http://169.254.169.254/latest/meta-data/public-hostname')
+        .then(response => response.text())
+        .then(hostname => {
+            document.getElementById('ec2-hostname').textContent = hostname;
+        })
+        .catch(() => {
+            document.getElementById('ec2-hostname').textContent = 'No disponible';
+        });
+});
