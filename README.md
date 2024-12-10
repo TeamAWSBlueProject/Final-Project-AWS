@@ -19,6 +19,29 @@ El cliente quiere desplegar su web en AWS y que esta tenga alta disponibilidad, 
     - El número de instancias se aumenta o se reduce según la demanda de usuarios
     - Todo el equipo es capaz de explicar el proceso o resolver dudas sobre el mismo
 
+## Planificación del proyecto
+
+    Presentación requerimientos proyecto: 09/12/24
+  
+          Sprint 1:
+           - Duración: 1 sesiones de 6h 
+           - Inicio: 10/12/24 
+           - Fin: 10/12/24
+           - Sprint review: 10/12/24 @2:30h 
+
+          Sprint 2:
+           - Duración: 1 sesiones de 4h 
+           - Inicio: 11/12/24
+           - Fin: 11/12/24
+           - Sprint review: 01/07/24 @12:00h
+           - Ensayo Presentación @12:30h
+
+          DEMO / Fin del proyecto: 12/12/24 
+
+## Documentación
+
+   
+
 <hr>
 
 ## Equipo: 
