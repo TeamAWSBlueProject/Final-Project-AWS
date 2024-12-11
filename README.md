@@ -58,9 +58,9 @@ Amazon EC2:
 
 ## Documentación
 
-<a href="https://www.figma.com/board/QGYxZBUzmvu8aUwBqyUxD2/Estructura-AWS-Proyecto-final?t=v12kJcFYC1k2eTF4-6">Figma</a></br>
-<a href="Final-Project-AWS-Blue-Group.pdf">Presentación</a></br>
-<a href="Video_presentación_proyecto.mp4"> Video </a></br>
+<a href="https://www.figma.com/board/QGYxZBUzmvu8aUwBqyUxD2/Estructura-AWS-Proyecto-final?t=v12kJcFYC1k2eTF4-6">Estructura AWS proyecto en Figma</a></br>
+<a href="Final-Project-AWS-Blue-Group.pdf">Presentación del proyecto</a></br>
+<a href="Video_presentación_proyecto.mp4"> Video explicativo </a></br>
 
 
 <hr>
