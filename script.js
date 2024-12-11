@@ -1,6 +1,3 @@
-// Configurar un valor predeterminado (será reemplazado por user-data)
-const hostname = 'localhost';
-
 // Inicialización de la aplicación
 document.addEventListener('DOMContentLoaded', () => {
     // Mostrar el hostname predeterminado o actualizado
