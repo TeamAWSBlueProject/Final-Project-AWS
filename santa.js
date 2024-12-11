@@ -1,3 +1,20 @@
+// Configurar un valor predeterminado (será reemplazado por user-data)
+const defaultHostname = 'localhost';
+
+// Inicialización de la aplicación
+document.addEventListener('DOMContentLoaded', () => {
+    // Actualizar dinámicamente el contenido del hostname
+    const hostnameElement = document.getElementById('ec2-hostname');
+    if (hostnameElement) {
+        hostnameElement.textContent = `EC2 response: ${defaultHostname}`;
+    }
+
+    // Funciones para la aplicación
+    renderGreetingCreator();
+    renderGreetingsGallery();
+    renderInvitationSection();
+});
+
 // Datos de ejemplo de felicitaciones
 const sampleGreetings = [
     {
@@ -24,6 +41,7 @@ const greetingTemplates = [
     "Que Santa traiga alegría a tu hogar"
 ];
 
+// Renderizar el creador de felicitaciones
 function renderGreetingCreator() {
     const container = document.getElementById('greeting-creator');
     container.innerHTML = `
@@ -42,6 +60,7 @@ function renderGreetingCreator() {
     document.getElementById('greeting-form').addEventListener('submit', createGreeting);
 }
 
+// Crear una nueva felicitación
 function createGreeting(e) {
     e.preventDefault();
     const name = document.getElementById('author-name').value;
@@ -61,6 +80,7 @@ function createGreeting(e) {
     renderInvitationSection();
 }
 
+// Renderizar galería de felicitaciones
 function renderGreetingsGallery() {
     const gallery = document.getElementById('greetings-gallery');
     gallery.innerHTML = '';
@@ -80,6 +100,7 @@ function renderGreetingsGallery() {
     });
 }
 
+// Aumentar likes en una felicitación
 function likeGreeting(id) {
     const greeting = sampleGreetings.find(g => g.id === id);
     if (greeting) {
@@ -88,6 +109,7 @@ function likeGreeting(id) {
     }
 }
 
+// Renderizar sección de invitaciones
 function renderInvitationSection() {
     const container = document.getElementById('invitation-section');
     container.innerHTML = `
@@ -101,27 +123,9 @@ function renderInvitationSection() {
     `;
 }
 
-// Inicialización
-document.addEventListener('DOMContentLoaded', () => {
-    renderGreetingCreator();
-    renderGreetingsGallery();
-    renderInvitationSection();
-});
-
-// document.addEventListener('DOMContentLoaded', () => {
-//     // Configurar un valor predeterminado (DNS del ALB)
-//     const defaultHostname = 'Blue-Load-balancer-1366333790.us-west-2.elb.amazonaws.com';
-//     document.getElementById('ec2-hostname').textContent = defaultHostname;
-
-//     // Intentar obtener el hostname desde el Instance Metadata Service
-//     fetch('http://169.254.169.254/latest/meta-data/public-hostname')
-//         .then(response => response.text())
-//         .then(hostname => {
-//             // Si el fetch tiene éxito, actualizar el contenido con el hostname real
-//             document.getElementById('ec2-hostname').textContent = hostname;
-//         })
-//         .catch(() => {
-//             // Si falla, mantener el valor predeterminado
-//             console.warn('No se pudo obtener el hostname desde Instance Metadata Service');
-//         });
-// });
+function inviteFriend() {
+    const email = document.getElementById('friend-email').value;
+    if (email) {
+        alert(`Invitación enviada a ${email}`);
+    }
+}
