@@ -24,13 +24,13 @@ El cliente quiere desplegar su web en AWS y que esta tenga alta disponibilidad, 
     Presentación requerimientos proyecto: 09/12/24
   
           Sprint 1:
-           - Duración: 1 sesiones de 6h 
+           - Duración: 1 sesion de 6h 
            - Inicio: 10/12/24 
            - Fin: 10/12/24
            - Sprint review: 10/12/24 @2:30h 
 
           Sprint 2:
-           - Duración: 1 sesiones de 4h 
+           - Duración: 1 sesion de 4h 
            - Inicio: 11/12/24
            - Fin: 11/12/24
            - Sprint review: 01/07/24 @12:00h
@@ -52,3 +52,4 @@ El cliente quiere desplegar su web en AWS y que esta tenga alta disponibilidad, 
 | <a href="https://github.com/DANIELAZAPATA0724)"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/danielazapataquintana/)"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/DenaRi97 "><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/almurivera/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/mi-i-c"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/maría-isabel-ipiales"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> | <a href="https://github.com/laudyeneth"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a> <a href="https://www.linkedin.com/in/laudyeneth"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a> |<a href="https://github.com/spinelf"><img src="https://img.shields.io/badge/github-%23121011.svg?&style=for-the-badge&logo=github&logoCo=white"/></a>  <a href="https://www.linkedin.com/in/silviapiñel"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
 <hr>
+
