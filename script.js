@@ -1,7 +1,13 @@
+// Configurar un valor predeterminado (será reemplazado por user-data)
+const defaultHostname = 'localhost';
+
 // Inicialización de la aplicación
 document.addEventListener('DOMContentLoaded', () => {
-    // Mostrar el hostname predeterminado o actualizado
-    document.getElementById('ec2-hostname').textContent = defaultHostname;
+    // Actualizar dinámicamente el contenido del hostname
+    const hostnameElement = document.getElementById('ec2-hostname');
+    if (hostnameElement) {
+        hostnameElement.textContent = `EC2 response: ${defaultHostname}`;
+    }
 
     // Funciones para la aplicación
     renderGreetingCreator();
