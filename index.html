@@ -9,6 +9,7 @@
 <body>
     <div class="container">
         <header>
+            <p id="hostname"></p>
             <h1>🎄 Festiva: Comparte la Magia Navideña 🎅</h1>
             <p>Conecta, Felicita, Celebra</p>
         </header>
@@ -45,16 +46,10 @@
         </div>
     </div>
 
-    <!-- <footer class="site-footer">
-        <div class="ec2-info">
-            Servido desde <p id="ec2-hostname"></p>
-        </div>
-    </footer> -->
-
     <script src="script.js"></script>
 
     <script class="ec2-info">
-            document.getElementById("hostname").innerHTML = "<div> 🎄 EC2 response: " + ip + "</div>"
+            document.getElementById("hostname").innerHTML = "<div> 🎄  EC2 response: " + ip + "</div>"
     </script>
 </body>
 </html>
