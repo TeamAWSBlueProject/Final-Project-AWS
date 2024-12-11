@@ -38,9 +38,26 @@ El cliente quiere desplegar su web en AWS y que esta tenga alta disponibilidad, 
 
           DEMO / Fin del proyecto: 12/12/24 
 
-## Documentación
+## Servicios utilizados
 
-   
+Amazon VPC:
+         
+        - Puerta de enlace de internet (IGW)
+        - Table de enrutamiento
+        - Subredes Públicas
+    
+Amazon EC2:
+        
+        -  Elastic Load Balancer
+        -  Grupos de seguridad
+        -  Auto Scaling
+                
+## Arquitectura en AWS
+
+<img width="800" alt="Arquitectura_aws_Blue_proyect" src="https://github.com/user-attachments/assets/572e917e-ecef-48b9-95d0-f69ed41393f0" />
+
+## Documentación
+ 
 
 <hr>
 
