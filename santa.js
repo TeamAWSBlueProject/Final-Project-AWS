@@ -108,20 +108,20 @@ document.addEventListener('DOMContentLoaded', () => {
     renderInvitationSection();
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-    // Configurar un valor predeterminado (DNS del ALB)
-    const defaultHostname = 'SantaALB-1173865301.us-west-2.elb.amazonaws.com';
-    document.getElementById('ec2-hostname').textContent = defaultHostname;
+// document.addEventListener('DOMContentLoaded', () => {
+//     // Configurar un valor predeterminado (DNS del ALB)
+//     const defaultHostname = 'Blue-Load-balancer-1366333790.us-west-2.elb.amazonaws.com';
+//     document.getElementById('ec2-hostname').textContent = defaultHostname;
 
-    // Intentar obtener el hostname desde el Instance Metadata Service
-    fetch('http://169.254.169.254/latest/meta-data/public-hostname')
-        .then(response => response.text())
-        .then(hostname => {
-            // Si el fetch tiene éxito, actualizar el contenido con el hostname real
-            document.getElementById('ec2-hostname').textContent = hostname;
-        })
-        .catch(() => {
-            // Si falla, mantener el valor predeterminado
-            console.warn('No se pudo obtener el hostname desde Instance Metadata Service');
-        });
-});
+//     // Intentar obtener el hostname desde el Instance Metadata Service
+//     fetch('http://169.254.169.254/latest/meta-data/public-hostname')
+//         .then(response => response.text())
+//         .then(hostname => {
+//             // Si el fetch tiene éxito, actualizar el contenido con el hostname real
+//             document.getElementById('ec2-hostname').textContent = hostname;
+//         })
+//         .catch(() => {
+//             // Si falla, mantener el valor predeterminado
+//             console.warn('No se pudo obtener el hostname desde Instance Metadata Service');
+//         });
+// });
