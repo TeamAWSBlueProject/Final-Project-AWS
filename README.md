@@ -57,7 +57,11 @@ Amazon EC2:
 <img width="800" alt="Arquitectura_aws_Blue_proyect" src="https://github.com/user-attachments/assets/572e917e-ecef-48b9-95d0-f69ed41393f0" />
 
 ## Documentación
- 
+
+<a href="https://www.figma.com/board/QGYxZBUzmvu8aUwBqyUxD2/Estructura-AWS-Proyecto-final?t=v12kJcFYC1k2eTF4-6">Figma</a></br>
+<a href="">Presentación</a></br>
+<a href=""> Video </a></br>
+
 
 <hr>
 
